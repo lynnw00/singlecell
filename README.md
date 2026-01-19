@@ -6,7 +6,11 @@ Reminder to self to add comments to the scripts.
 ## Content of repository
 | **File**     | Description |
 | -------- | -------     |
-| file1 | File number 1 |
-| file2 | File number 2 |
-| file3  | File number 3 |
+| emapper.sh | File number 1 |
+| fastqc.sh | File number 2 |
+| filtered_featureCounts.sh | File number 3 |
+| star_align.sh | yada |
+| stringtie.sh |  |
+| trim.sh | |
+| trim_align.sh | |
 
