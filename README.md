@@ -10,6 +10,7 @@ Reminder to self to add comments to the scripts.
 | fastqc.sh | File number 2 |
 | trim.sh | |
 | trim_align.sh | |
+| featureCounts.sh | |
 | stringtie.sh |  |
 | filtered_featureCounts.sh | File number 3 |
 | emapper.sh | File number 1 |
