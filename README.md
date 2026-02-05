@@ -8,7 +8,7 @@ RNA-seq data that was used: https://www.ncbi.nlm.nih.gov/sra/SRX5822305[accn]
 | **File**     | Description |
 | -------- | -------     |
 | star_align.sh | aligning RNA-seq reads |
-| fastqc.sh | File number 2 |
+| fastqc.sh | Quality control of the raw reads |
 | trim.sh | |
 | trim_align.sh | |
 | featureCounts.sh | |
