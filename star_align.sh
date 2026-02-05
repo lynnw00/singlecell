@@ -16,3 +16,9 @@ module list
 
 ## EXECUTION
 STAR --genomeDir /lisc/data/scratch/course/2025w300106/wachelder/ASM_STAR --runThreadN 16 --readFilesIn /lisc/data/scratch/course/2025w300106/wachelder/SRR9045763_1.fastq /lisc/data/scratch/course/2025w300106/wachelder/SRR9045763_2.fastq --outFileNamePrefix /lisc/data/scratch/course/2025w300106/wachelder/results/map/SRR9045763_ASM_ --outSAMstrandField intronMotif --outSAMtype BAM SortedByCoordinate 
+
+# Path to STAR genome index where the reference genome is.
+# The readFilesIn contain the forward and reverse reads.
+# Path to output files and beginning of the names for them.
+# Information about the two DNA strands into a BAM file for later use.
+# Immediately sorted by genomic coordinate.
