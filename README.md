@@ -6,7 +6,7 @@ Reminder to self to add comments to the scripts.
 ## Content of repository
 | **File**     | Description |
 | -------- | -------     |
-| star_align.sh | |
+| star_align.sh | aligning RNA-seq reads |
 | fastqc.sh | File number 2 |
 | trim.sh | |
 | trim_align.sh | |
