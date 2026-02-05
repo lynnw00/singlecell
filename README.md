@@ -14,6 +14,7 @@ Reminder to self to add comments to the scripts.
 | stringtie.sh |  |
 | filtered_featureCounts.sh | File number 3 |
 | emapper.sh | File number 1 |
+| cellranger.sh | |
 
 
 
