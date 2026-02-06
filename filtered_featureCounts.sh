@@ -21,7 +21,7 @@ outDir="$path/results/filtered_featureCounts"
 
 
 ### EXECUTION
-# Changed some things to fit use the filtered gtf file rather than the other one.
+# Changed some things to fit use the filtered gtf file rather than the given one.
 
 echo "Started job at $(date)"
 mkdir -p $outDir
@@ -29,3 +29,5 @@ mkdir -p $outDir
 featureCounts -p --countReadPairs -C -T 4 -s 2 --primary \
 	-a $gtfFile -o $outDir/counts.tsv $bamfile
 echo "Job finished at $(date)"
+
+# Check comments of the featureCounts.sh!
