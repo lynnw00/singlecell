@@ -29,3 +29,12 @@ trimmomatic PE -threads 4 -summary $outDir/summary \
   SLIDINGWINDOW:4:20 MINLEN:75
 echo "Job finished at $(date)"
 
+# Trimmomatic removes adapters and low-quality bases from the reads.
+# PE stands for paired-end mode.
+# The summary will show what has been kept, trimmed, and dropped.
+# Baseout created output files with the given prefix.
+# ILLUMINACLIP removes the adapters, allows 2 mismatches, 30 is the palindrome mode threshold,
+# 10 is the clipping threshold.
+# SLIDINGWINDOW scans the reads in a 4-base window, if the Phred quality score drops below 20,
+# the rest of the read is cut off, this is a 1% error rate.
+
