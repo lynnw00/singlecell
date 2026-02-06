@@ -10,7 +10,7 @@
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=lynn.wachelder@univie.ac.at
 
-### Counting (worms, blegh) reads per gene
+### Counting reads per gene
 module load Subread
 module list
 
