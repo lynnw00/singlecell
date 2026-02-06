@@ -10,7 +10,7 @@ RNA-seq data that was used: https://www.ncbi.nlm.nih.gov/sra/SRX5822305[accn]
 | fastqc.sh | Quality control of the raw reads |
 | trim.sh | Removing adapters and low-quality bases |
 | trim_align.sh | Mapping RNA-seq reads to the reference genome |
-| featureCounts.sh | Check how manu RNA-seq fragments are mapped |
+| featureCounts.sh | Check how many RNA-seq fragments are mapped |
 | stringtie.sh |  |
 | filtered_featureCounts.sh | File number 3 |
 | emapper.sh | File number 1 |
