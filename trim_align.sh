@@ -27,3 +27,10 @@ STAR --genomeDir $wd/ASM_STAR \
 --outFileNamePrefix $outDir/ --outSAMstrandField intronMotif --outSAMtype BAM SortedByCoordinate
 echo "Job finished at $(date)"
 
+
+# Using the STAR align results from earlier and mapping them to the reference genome.
+# Input are the forward and reverse reads that got through trimming.
+# intronMotif will find which DNA strand the RNA came from by looking at typical intron
+# boundary sequences in spliced reads.
+# Save information into a BAM file.
+
