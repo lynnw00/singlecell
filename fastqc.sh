@@ -10,17 +10,20 @@
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=lynn.wachelder@univie.ac.at
 
-
+### ENVIRONMENT
 module load FastQC
+module list
 
 ### VARIABLES
 outDir="/lisc/data/scratch/course/2025w300106/wachelder/results/fastqc"
 readsDir="/lisc/data/scratch/course/2025w300106/wachelder"
-
 
 ### EXECUTION
 echo "Started job at $(date)"
 mkdir $outDir
 fastqc -t 2 -o $outDir $readsDir/SRR9045763_1.fastq $readsDir/SRR9045763_2.fastq
 echo "Job finished at $(date)"
+
+# This job performs quality control on both forward and reverse read FASTQ files, putting the results in the output directory.
+
 
