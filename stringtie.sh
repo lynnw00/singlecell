@@ -26,3 +26,11 @@ mkdir -p $outDir
 stringtie $inBam -l ASM -o $outDir/bioDataAnalysis_ASM.gtf -p 4 -j 5 -g 200 -m 200
 
 echo "Job finished at $(date)"
+
+# -l setting transcript ID prefix.
+# -o setting output, GTF file with assembled transcripts.
+# -j a splice junction must be supported by at least 5 reads, otherwise remove.
+# -g if two clusters of reads are separated by > 200 bp with no coverage, they are
+# treated as different genes.
+# -m only reports transcripts larger than 200 bp.
+
