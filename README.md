@@ -12,8 +12,8 @@ RNA-seq data that was used: https://www.ncbi.nlm.nih.gov/sra/SRX5822305[accn]
 | trim_align.sh | Mapping RNA-seq reads to the reference genome |
 | featureCounts.sh | Check how many RNA-seq fragments are mapped |
 | stringtie.sh | Use STAR-aligned RNA-seq reads to assemble and report transcript structures |
-| filtered_featureCounts.sh | File number 3 |
-| emapper.sh | File number 1 |
+| filtered_featureCounts.sh | Check mapped RNA-seq fragments again using the filtered gtf file |
+| emapper.sh | |
 | cellranger.sh | |
 
 
